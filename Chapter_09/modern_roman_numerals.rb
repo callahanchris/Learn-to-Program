@@ -31,8 +31,7 @@ def roman_numeral num
 			tens = 'L' + 'X' * (temp_tens - 5)
 		elsif temp_tens == 5
 			tens = 'L'
-		elsif
-			temp_tens == 4
+		elsif temp_tens == 4
 			tens = 'XL'
 		else
 			tens = 'X' * temp_tens
